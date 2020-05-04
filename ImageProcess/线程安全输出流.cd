@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="线程安全输出流">
+    <Position X="0.833" Y="1.292" Height="0.317" Width="1.458" />
+  </Comment>
+  <Class Name="OutputStream">
+    <Position X="2.5" Y="1.25" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="OutputStream::ContinueStream">
+        <TypeIdentifier>
+          <NewMemberFileName>D:\计算机设计大赛2019\Projects\include\ParameterManager.hpp</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABQCAEAAQAAAAAEAQCAAoABAAAAA=</HashCode>
+      <FileName>D:\计算机设计大赛2019\Projects\include\ParameterManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

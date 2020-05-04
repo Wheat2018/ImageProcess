@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="命令行参数管理类">
+    <Position X="2.583" Y="1.092" Height="0.4" Width="1.258" />
+  </Comment>
+  <Class Name="ParameterManager">
+    <Position X="5" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEgAAAAIABAAAAAAEAAAAAAAAAgACEDAY=</HashCode>
+      <FileName>D:\计算机设计大赛2019\Projects\include\ParameterManager.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ParameterElement">
+    <Position X="2" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>D:\计算机设计大赛2019\Projects\include\ParameterManager.hpp</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

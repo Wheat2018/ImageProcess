@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\IndiscSolve">
+      <UniqueIdentifier>{84ee4ec5-5748-4f86-9fcd-0cbe492fe07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\DiscSolve">
+      <UniqueIdentifier>{ea131df9-1c4d-4627-9810-663ab5132a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Algo">
+      <UniqueIdentifier>{e9bae8af-2fd5-4148-84a7-52410b498cfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Algo\DiscAlgo">
+      <UniqueIdentifier>{b51df8d9-7759-49b8-b6e0-4e40536ff3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Algo\IndiscAlgo">
+      <UniqueIdentifier>{5d675418-85c6-483c-8cfe-9890208a9e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Solve">
+      <UniqueIdentifier>{0b848957-22ad-4fe5-a8bd-f774c13c606e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImageProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IndiscSolve.cpp">
+      <Filter>头文件\IndiscSolve</Filter>
+    </ClCompile>
+    <ClCompile Include="HorizonMirror.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscSolve.cpp">
+      <Filter>头文件\DiscSolve</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="RandRotate.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Call_Rotate_Mirror_Rand.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Solve.cpp">
+      <Filter>头文件\Solve</Filter>
+    </ClCompile>
+    <ClCompile Include="Sobel.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Laplacian.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Canny.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="EqualizeHist.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="GrayLayer.cpp">
+      <Filter>头文件\Algo\IndiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="Incise.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+    <ClCompile Include="AccessImage.cpp">
+      <Filter>头文件\Algo\DiscAlgo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IndiscSolve.h">
+      <Filter>头文件\IndiscSolve</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscSolve.h">
+      <Filter>头文件\DiscSolve</Filter>
+    </ClInclude>
+    <ClInclude Include="Solve.hpp">
+      <Filter>头文件\Solve</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="算法工厂.cd">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="线程安全输出流.cd">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="命令行参数管理.cd">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
