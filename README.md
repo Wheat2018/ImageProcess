@@ -5,7 +5,7 @@ Wheat同学写的图像预处理算法工厂
 2. [项目特性](#项目特性)
 3. [附言](#附言)
 
-##程序特性
+## 程序特性
 项目维护一个图像预处理程序ImageProcess.exe，该程序具有以下特性：
 
 - 程序包含带多个处理算法的工厂，处理算法区分“差异化处理”和“非差异化处理”方式，关于此处“处理算法”及“（非）差异化处理”的定义，查阅[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
@@ -14,7 +14,7 @@ Wheat同学写的图像预处理算法工厂
 
 - 以上操作通过Windows控制台(CMD)带参调用ImageProcess.exe实现
 
-##项目特性
+## 项目特性
 ImageProcess项目具有以下特性：
 
 - 定义了“处理算法”、“差异化处理算法”、“非差异化处理算法”，查阅[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
@@ -31,7 +31,7 @@ ImageProcess项目具有以下特性：
 
 - 项目框架及实现细节参考[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
 
-##附言
+## 附言
 - 该项目是参加2019年全国大学生计算机设计大赛（人工智能挑战赛-膀胱肿瘤分级分期标定）时开展的，用途是给膀胱肿瘤数据做数据增广。
 
 - 客观地说，整个框架其实是为“非差异化处理算法”而生，如果只含非差异化处理算法，框架会非常明朗，添加新算法的开发成本也比较低。（非差异化处理算法亦即输入一张图片，得到一张图片的算法，诸如：直方图均衡、边界增强等等。在[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)中有描述）那么批量处理，只需要给一个输入目录，一个输出目录，及算法的各种参数设定即可。
