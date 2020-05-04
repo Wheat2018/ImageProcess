@@ -8,7 +8,7 @@ Wheat同学写的图像预处理算法工厂
 
 ## 框架
 
-![](框架.png "ImageProcess框架")
+![](ImageProcess框架.svg "ImageProcess框架")
 
 ## 程序特性
 项目维护一个图像预处理程序ImageProcess.exe，该程序具有以下特性：
