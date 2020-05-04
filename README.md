@@ -8,7 +8,7 @@ Wheat同学写的图像预处理算法工厂
 ## 程序特性
 项目维护一个图像预处理程序ImageProcess.exe，该程序具有以下特性：
 
-- 程序包含带多个处理算法的工厂，处理算法区分“差异化处理”和“非差异化处理”方式，关于此处“处理算法”及“（非）差异化处理”的定义，查阅[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
+- 程序包含带多个处理算法的工厂，处理算法区分“差异化处理”和“非差异化处理”方式，关于此处“处理算法”及“（非）差异化处理”的定义，查阅[ImageProcess文档.docx](ImageProcess文档.docx)
 
 - 读取某单个/多个目录下的、指定后缀名的全部图片，调用工厂中指定算法，处理结果生成到指定目录。
 
@@ -17,7 +17,7 @@ Wheat同学写的图像预处理算法工厂
 ## 项目特性
 ImageProcess项目具有以下特性：
 
-- 定义了“处理算法”、“差异化处理算法”、“非差异化处理算法”，查阅[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
+- 定义了“处理算法”、“差异化处理算法”、“非差异化处理算法”，查阅[ImageProcess文档.docx](ImageProcess文档.docx)
 
 - 项目框架分别定义了Solve类、DiscSolve类、IndiscSolve类，后两者继承自前者，分别管理一个算法工厂（算法名称/算法构造器 键值对）。
 
@@ -29,12 +29,12 @@ ImageProcess项目具有以下特性：
 
 - 项目实现控制台(CMD)参数调用功能，依赖于[WheatAPI](https://github.com/Wheat2018/WheatAPI)中的ParameterManager类。
 
-- 项目框架及实现细节参考[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
+- 项目框架及实现细节参考[ImageProcess文档.docx](ImageProcess文档.docx)
 
 ## 附言
 - 该项目是参加2019年全国大学生计算机设计大赛（人工智能挑战赛-膀胱肿瘤分级分期标定）时开展的，用途是给膀胱肿瘤数据做数据增广。
 
-- 客观地说，整个框架其实是为“非差异化处理算法”而生，如果只含非差异化处理算法，框架会非常明朗，添加新算法的开发成本也比较低。（非差异化处理算法亦即输入一张图片，得到一张图片的算法，诸如：直方图均衡、边界增强等等。在[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)中有描述）那么批量处理，只需要给一个输入目录，一个输出目录，及算法的各种参数设定即可。
+- 客观地说，整个框架其实是为“非差异化处理算法”而生，如果只含非差异化处理算法，框架会非常明朗，添加新算法的开发成本也比较低。（非差异化处理算法亦即输入一张图片，得到一张图片的算法，诸如：直方图均衡、边界增强等等。在[ImageProcess文档.docx](ImageProcess文档.docx)中有描述）那么批量处理，只需要给一个输入目录，一个输出目录，及算法的各种参数设定即可。
 
 - 但数据增广常常用到的算法不止这种类型。举个例子，直方图均衡、边界增强等等算法，一来对输入的每张图都是同种处理手段，二来只需要应用到数据图上，而不需要应用到数据标签上。但类似于patch采样（用小框从图上挖个小图出来）、随机旋转、镜像翻转等等处理操作，一来对每张图处理不太一样，如旋转角度不同，二来需要将数据图和数据标签做同步处理的，这样与非差异化处理就需区分开来。差异化处理在框架中是定义需要给一个输入目录、标签目录，一个输出目录、输出标签目录，及算法的各种参数设定。
 
