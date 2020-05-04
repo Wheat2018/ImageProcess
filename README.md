@@ -20,4 +20,6 @@ ImageProcess项目具有以下特性：
 
 - 除discFactory和indiscFactory两种工厂外，还有summary管理器（算法名称/算法描述 键值对），为描述算法功能提供便利。
 
+- 项目实现控制台(CMD)参数调用功能，依赖于[WheatAPI](https://github.com/Wheat2018/WheatAPI)中的ParameterManager类。
+
 - 项目框架及实现细节参考[ImageProcess文档.docx](https://github.com/Wheat2018/ImageProcess/blob/master/ImageProcess文档.docx)
